@@ -38,9 +38,34 @@
             <label id="upfile" for="uploadfile"> UPLOAD FILE</label>
             <button id="confirmfile">Confirm</button>
         </div>
+        <div id="progressbar">
+            <h3>Uploading <span id="incnum">0</span>%</h3>
+            <div id="bar">
+                <div id="barline">
+
+                </div>
+            </div>
+        </div>
     </div>
     <div id="section2">
+        <h2>Enter description</h2>
+        <form id="form" action="/createfile" method="post" onsubmit="submitForm(event)">
+            <textarea style="resize: none;" name="content" placeholder="Enter your description here.."
+                id="desc"></textarea>
+            <div id="buttonbox">
+                <button id="submitbutton">Send</button>
+            </div>
 
+        </form>
+
+
+
+    </div>
+
+    <div id="section3">
+        <div id="graphcontent">
+            <canvas id="chart" height="400" width="400"></canvas>
+        </div>
     </div>
     <script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
@@ -52,8 +77,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3.chart/0.3.0/d3.chart.min.js"
         integrity="sha512-QETtBMmdL3kiDKvgtrz9ni2wDJ8Pt74WL90Q5tHogUi3JZsz8mDp+ey601pTYYRw+OmLLX956h2TeoJDw04+PQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+    <script src="
+        https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js
+        "></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
-    <script src="script.js"></script>
+
+    <script src="script.js">
+
+    </script>
 </body>
+
 </html>

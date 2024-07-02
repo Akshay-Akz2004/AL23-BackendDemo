@@ -1,0 +1,51 @@
+Student ID,Name,Age,Gender,Grade,GPA,Major
+1,Student1,20,Female,B,2.23,Physics
+2,Student2,21,Female,D,3.18,Physics
+3,Student3,19,Male,A,2.69,Chemistry
+4,Student4,19,Female,F,2.86,Mathematics
+5,Student5,18,Male,C,3.47,Mathematics
+6,Student6,20,Female,B,3.28,Mathematics
+7,Student7,22,Male,B,3.26,Biology
+8,Student8,20,Male,A,3.55,Chemistry
+9,Student9,18,Female,C,3.48,Chemistry
+10,Student10,19,Male,C,2.58,Mathematics
+11,Student11,20,Male,B,2.64,Biology
+12,Student12,21,Male,B,3.09,Chemistry
+13,Student13,24,Female,B,2.43,Physics
+14,Student14,24,Male,A,2.15,Chemistry
+15,Student15,22,Male,D,3.18,Mathematics
+16,Student16,23,Male,B,2.56,Mathematics
+17,Student17,20,Female,F,3.9,Computer Science
+18,Student18,18,Male,C,2.09,Biology
+19,Student19,20,Male,A,2.22,Computer Science
+20,Student20,23,Female,F,2.56,Physics
+21,Student21,19,Female,D,3.0,Chemistry
+22,Student22,19,Male,F,3.23,Computer Science
+23,Student23,24,Male,C,3.93,Mathematics
+24,Student24,21,Male,C,3.54,Biology
+25,Student25,22,Female,D,2.76,Biology
+26,Student26,19,Female,F,2.55,Physics
+27,Student27,24,Female,C,2.19,Biology
+28,Student28,22,Female,D,3.37,Mathematics
+29,Student29,19,Male,B,3.27,Physics
+30,Student30,20,Male,B,3.99,Biology
+31,Student31,24,Female,C,3.66,Mathematics
+32,Student32,18,Female,F,2.67,Physics
+33,Student33,18,Female,A,3.75,Computer Science
+34,Student34,19,Female,C,2.01,Computer Science
+35,Student35,21,Male,D,2.03,Computer Science
+36,Student36,20,Male,D,3.89,Chemistry
+37,Student37,23,Male,A,3.95,Biology
+38,Student38,21,Female,B,3.12,Physics
+39,Student39,23,Female,C,2.09,Chemistry
+40,Student40,21,Male,D,3.48,Computer Science
+41,Student41,22,Female,A,2.52,Biology
+42,Student42,24,Female,D,2.24,Physics
+43,Student43,22,Male,A,2.97,Physics
+44,Student44,20,Male,F,2.78,Physics
+45,Student45,24,Female,F,3.38,Physics
+46,Student46,21,Female,B,2.19,Computer Science
+47,Student47,23,Female,F,2.57,Physics
+48,Student48,22,Female,B,3.01,Chemistry
+49,Student49,20,Female,B,2.12,Biology
+50,Student50,18,Female,B,3.21,Physics

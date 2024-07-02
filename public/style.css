@@ -25,6 +25,7 @@ html,body{
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 10% 70% 20%;
+    
 }
 
 
@@ -76,7 +77,54 @@ html,body{
 #section2{
     height: 100%;
     width: 100%;
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form #desc{
+    padding: 20px 40px;
+    border-radius: 20px;
+    border: none;
+    height: 10vw;
+    width: 30vw;
+    background-color:#dadada;
+    font-family: gilroy;
+    font-weight: 600;
+}
+
+#section2 h2{
+    font-size: 3vw;
+    font-family: gilroy;
+    text-transform: capitalize;
+    margin-bottom: 2vw;
+    border-bottom: 2px solid black;
+    margin-top: 4vw;
+}
+
+a{
+    color: white;
+}
+
+#submitbutton{
+    left: 30%;
     background-color: red;
+    position: relative;
+    border: none;
+    margin-top: 20px;
+    height: 3.5vw;
+    width: 10vw;
+    color: white;
+    border-radius: 10px;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+  
+#submitbutton:hover{
+    background-color: black;
+    
 }
 
 #bottom{
@@ -99,10 +147,39 @@ input[type="file"]{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+#progressbar{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: gilroy;
+}
+
+#progressbar h3{
+    opacity: 0;
+}
+
+
+#bar{
+    margin-top: 1vw;
+    width: 20vw;
+    height: 2vh;
+    border-radius: 4px;
+}
+
+#barline{
+    width: 0%;
+    height: 100%;
+    background-color: red;
+    border-radius: 4px;
 }
 
 #confirmfile{
-
+    margin-top: 2%;
     border: none;
     margin-left: 2%;
     background-color: black;
@@ -111,12 +188,31 @@ input[type="file"]{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     letter-spacing: 1.5px;
-    
+    cursor: pointer;
 }
 
 #textmid{
     font-size: 20px;
 }
+
+#section3{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#graphcontent{
+    height: 60%;
+    width: 60%;
+}
+
+#chart{
+    height: 100%;
+    width: 100%;
+}
+
 
 @media (max-width:700px) {
     #section1{
